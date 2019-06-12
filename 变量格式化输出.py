@@ -15,6 +15,16 @@ weight=66.5
 height=175.5
 print('我是%s,今年%d岁，体重：%.2f公斤，身高：%.2fcm' %(name,age,weight,height),sep=' ')
 
+#学号
+stdno=1
+print('%06d' %stdno)   #000001
+#身高
+h1=175.8
+print('%.02f'%h1)
+
+#百分数输出
+scale=0.25
+print('scale=%.2f%%'%(scale*100))
 
 print('我是{},今年{}岁，体重：{}公斤，身高：{}'.format(name,age,weight,height))
 
