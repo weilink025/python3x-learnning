@@ -15,6 +15,14 @@ def fob1(m):
         a, b = b, a + b  # 先取到=号后面的变量的值，然后赋值给，=号前面的变量
 a=fob1(10)
 print(a)   # <generator object fob1 at 0x000001779A52EB10>
+#生成器输出方法next()
 print(next(a))
 print(next(a))
 print(next(a))
+print('先输出了前三个')
+#a.__next__()输出
+print(a.__next__())
+print('输出第四个')
+#for输出成器输
+for i in a:
+    print(i)    #从第三个开始输出，因为生成只能向后遍历，不能向前
