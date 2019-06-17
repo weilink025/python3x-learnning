@@ -16,3 +16,6 @@ def test1(a,b):
 
 a=test1(2,3)   #a指向了test2
 print(a(4))
+
+b=test1(5,7)
+print(b(10))
