@@ -1,3 +1,4 @@
+#fork不能直接在win系统上执行
 import os
 import time
 re=os.fork()
