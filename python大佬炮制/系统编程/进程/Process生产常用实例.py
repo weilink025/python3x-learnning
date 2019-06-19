@@ -3,7 +3,7 @@ from multiprocessing import Process
 import os
 
 def run_proc(name):
-    while True:
+#    while True:
         print('子进程运行中，name= %s,pid= %d...' %(name,os.getpid()))
 
 if __name__ == '__main__':
