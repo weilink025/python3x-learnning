@@ -3,7 +3,7 @@ from multiprocessing import Pool,Manager
 from time import sleep
 
 def copyfunc(name,old_file,new_file,queues):
-    queues.put(name)
+
     print(queues.get())
     fr = open(old_file+"/"+name,"r")
     fw = open(new_file+"/"+name,'w')
