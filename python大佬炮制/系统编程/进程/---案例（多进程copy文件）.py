@@ -1,21 +1,22 @@
 import os
-from multiprocessing import Pool,Queue,Manager
+from multiprocessing import Pool,Manager
 from time import sleep
 
 def copyfunc(name,old_file,new_file,queues):
+    queues.put(name)
+    print(queues.get())
     fr = open(old_file+"/"+name,"r")
     fw = open(new_file+"/"+name,'w')
     context=fr.read()
     fw.write(context)
     fr.close()
     fw.close()
-    queues.put(name)
+
 
 
 
 
 if __name__ == "__main__":
-
 
     old_file = input("输入你要copy的文件夹：")
     print(" ")
@@ -23,18 +24,32 @@ if __name__ == "__main__":
 
     os.mkdir(new_file)
     listfile = os.listdir(old_file)
+    print(len(os.listdir(old_file)))
 
-    pool= Pool(5)
+    pool= Pool(2)
     queues = Manager().Queue()
+
+
+
     for name in listfile:
 
         pool.apply_async(copyfunc,(name,old_file,new_file,queues,))
 
-    pool.close()
 
-    for i in range(1920):
-         print(queues.get())
-    pool.join()
+
+
+    num=0
+    allnum = len(listfile)
+
+
+    while num <= allnum:
+        print("%s —————————— 已经copy完成" % queues.get())
+        num+=1
+
+    print("所有文件已经复制完成！！")
+
+
+
 
 
 
