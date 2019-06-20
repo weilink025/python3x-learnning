@@ -20,7 +20,9 @@ os.fork()
 os.fork()
 print('a %d' %os.getpid())
 
-
+"""
 #fork炸弹
 while True:
     os.fork()
+    
+"""
