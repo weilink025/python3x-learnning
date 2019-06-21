@@ -38,8 +38,9 @@ udpsocket.close()
 """
 
 from socket import *
-tcpsocket=socket(AF_INET,SOCK_DGRAM)
+udpsocket=socket(AF_INET,SOCK_DGRAM)
 #str=bytes("我是张伟",encoding='UTF-8')  #转换编码
 
 str="我是张伟"
-tcpsocket.sendto(str.encode(encoding="GBK"),('127.0.0.1',8081))    #encode编码
+udpsocket.sendto(str.encode("GBK"),('127.0.0.1',8081))    #
+udpsocket.close()
