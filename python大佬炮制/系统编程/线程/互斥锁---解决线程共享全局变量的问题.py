@@ -7,11 +7,11 @@ g_num = 0
 
 def test1():
     global g_num
-    locktest.acquire()    # 上锁
+    locktest.acquire()    # 上锁   #当test1上锁后，test2后sleep
     for i in range(10000000):
         g_num+=1
     print("test1= %d" %g_num)
-    locktest.release()     #解锁
+    locktest.release()     #解锁  #当test1解锁后，会 通知 其它线程
 def test2():
     global g_num
     locktest.acquire()   # 上锁
