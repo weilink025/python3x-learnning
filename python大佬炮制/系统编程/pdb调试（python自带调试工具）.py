@@ -1,7 +1,7 @@
 
 """
 #第一种方式
-python3 -m pdb test.py
+python3 -m pdb TFTP客户端client.py
 
 命令：
 l------>  显示当前的代码
