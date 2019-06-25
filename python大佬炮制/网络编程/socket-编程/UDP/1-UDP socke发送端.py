@@ -40,7 +40,9 @@ udpsocket.close()
 from socket import *
 udpsocket=socket(AF_INET,SOCK_DGRAM)
 #str=bytes("我是张伟",encoding='UTF-8')  #转换编码
+while True:
+    str = input(":")
 
-str="我是张伟"
-udpsocket.sendto(str.encode("GBK"),('127.0.0.1',8081))    #
+    udpsocket.sendto(str.encode("GBK"),('192.168.22.190',8081))    #
+
 udpsocket.close()

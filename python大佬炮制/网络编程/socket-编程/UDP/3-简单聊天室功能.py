@@ -9,7 +9,7 @@ udpsocket.bind(bindAddr)
 
 
 while True:
-    recvData=udpsocket.recvfrom(1024)
+    recvData=udpsocket.recvfrom(10240)
     context,destAddr=recvData
     #print(recvData)
     print(datetime.datetime.today(),destAddr,context.decode("GBK"))   #接收后，decode解码
