@@ -8,7 +8,7 @@ def main():
 
     tcpsocket.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)
 
-    tcpsocket.setblocking(False)
+    tcpsocket.setblocking(False)  #被动socket设置为非阻塞
 
     tcpsocket.bind(('',8812))
 
@@ -27,7 +27,7 @@ def main():
         else:
             print("新客户到来")
 
-            newSocket.setblocking(False)
+            newSocket.setblocking(False)   #客户端socket设置为非阻塞
             socketList.append(newSocket)
 
         for newSocket in socketList:

@@ -1,13 +1,15 @@
 from socket import *
-from threading import Thread
+from threading import Thread,current_thread
+
 
 
 def cli_ser(newSocket,clientAddr):
     while True:
         recvData = newSocket.recv(1024)
+
         if len(recvData) > 0:
-            print("一个新客户端到来 ")
-            print(recvData)
+            print("当前线程是：%s" %current_thread().name)
+            print( recvData.decode(encoding="UTF-8"))
         else:
             print("没有数据关闭连接")
             break
@@ -17,7 +19,7 @@ def cli_ser(newSocket,clientAddr):
 def main():
     tcpSocket = socket(AF_INET, SOCK_STREAM)
 
-    tcpSocket.bind(("", 8822))
+    tcpSocket.bind(("", 8824))
 
     tcpSocket.listen(10)
 
@@ -27,6 +29,8 @@ def main():
         while True:
 
             newSocket, clientAddr = tcpSocket.accept()
+
+
 
             myTread = Thread(target=cli_ser,args=(newSocket,clientAddr))
 

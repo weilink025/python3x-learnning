@@ -20,7 +20,7 @@ def cli_ser(newSocket,dest):
 if __name__ == "__main__":
     tcpSocket = socket(AF_INET,SOCK_STREAM)
 
-    tcpSocket.bind(("",8886))
+    tcpSocket.bind(("",8881))
 
     tcpSocket.listen(10)
 
