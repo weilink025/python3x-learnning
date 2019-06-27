@@ -43,6 +43,6 @@ udpsocket=socket(AF_INET,SOCK_DGRAM)
 while True:
     str = input(":")
 
-    udpsocket.sendto(str.encode("GBK"),('192.168.22.190',8081))    #
+    udpsocket.sendto(str.encode("GBK"),('192.168.100.73',8081))    #
 
 udpsocket.close()

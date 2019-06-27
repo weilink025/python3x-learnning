@@ -1,7 +1,8 @@
 from socket import *
 from threading import Thread
 
-def cli_ser(*args,**kwargs):
+
+def cli_ser(newSocket,clientAddr):
     while True:
         recvData = newSocket.recv(1024)
         if len(recvData) > 0:
@@ -13,27 +14,30 @@ def cli_ser(*args,**kwargs):
     newSocket.close()
 
 
-try:
-    while True:
-        tcpSocket = socket(AF_INET, SOCK_STREAM)
+def main():
+    tcpSocket = socket(AF_INET, SOCK_STREAM)
 
-        tcpSocket.bind(("", 8800))
+    tcpSocket.bind(("", 8822))
 
-        tcpSocket.listen(10)
+    tcpSocket.listen(10)
 
-        tcpSocket.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)  # 服务器先挥手时需要加这一句
+    tcpSocket.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)  # 服务器先挥手时需要加这一句
 
+    try:
+        while True:
 
-        newSocket, clientAddr = tcpSocket.accept()
+            newSocket, clientAddr = tcpSocket.accept()
 
-        myTread = Thread(target=cli_ser,args=(newSocket,clientAddr))
+            myTread = Thread(target=cli_ser,args=(newSocket,clientAddr))
 
-        myTread.start()
+            myTread.start()
 
-        #newSocket.close()   #不能关闭，因为线程都共享这个变量
+            #newSocket.close()   #不能关闭，因为线程都共享这个变量
 
-except:
-    pass
-finally:
-    tcpSocket.close()
+    except:
+        pass
+    finally:
+        tcpSocket.close()
 
+if __name__ == "__main__":
+    main()
