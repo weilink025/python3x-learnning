@@ -1,27 +1,39 @@
 from socket import *
+from threading import Thread
 
-tcpSocket = socket(AF_INET,SOCK_STREAM)
-
-tcpSocket.bind(("",8800))
-
-tcpSocket.listen(10)
-
-tcpSocket.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)  #服务器先挥手时需要加这一句
-
-recvData = ""
 def cli_ser(*args,**kwargs):
     while True:
         recvData = newSocket.recv(1024)
-        if recvData:
+        if len(recvData) > 0:
+            print("一个新客户端到来 ")
             print(recvData)
         else:
+            print("没有数据关闭连接")
             break
+    newSocket.close()
 
 
+try:
+    while True:
+        tcpSocket = socket(AF_INET, SOCK_STREAM)
 
-while True:
-    newSocket, clientAddr = tcpSocket.accept()
-    cli_ser(newSocket,clientAddr)
+        tcpSocket.bind(("", 8800))
+
+        tcpSocket.listen(10)
+
+        tcpSocket.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)  # 服务器先挥手时需要加这一句
 
 
+        newSocket, clientAddr = tcpSocket.accept()
+
+        myTread = Thread(target=cli_ser,args=(newSocket,clientAddr))
+
+        myTread.start()
+
+        #newSocket.close()   #不能关闭，因为线程都共享这个变量
+
+except:
+    pass
+finally:
+    tcpSocket.close()
 

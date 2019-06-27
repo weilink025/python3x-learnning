@@ -12,9 +12,9 @@ def cli_ser(newSocket,dest):
             if newrcv:
                 print(newrcv,dest)
             else:
-                newSocket.close()
-                break
 
+                break
+    newSocket.close()
 
 
 if __name__ == "__main__":
