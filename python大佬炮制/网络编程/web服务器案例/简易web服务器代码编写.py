@@ -2,10 +2,9 @@ from socket import *
 from multiprocessing import Process
 
 
-
 #接收数据，并给客户端发送数据
 def revcfun(newSocket,destAddr):
-
+    """处理客户端请求"""
     while True:
 
 
