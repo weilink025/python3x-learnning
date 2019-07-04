@@ -11,27 +11,27 @@ import os
 
 
 
-def acceptData():
+def acceptData(udpSocket,recvData):
     # 创建udp套接字
-    udpSocket = socket(AF_INET, SOCK_DGRAM)
-    udpSocket.bind(("", 7781))
-    recvData, recvAddr = udpSocket.recvfrom(2048)
+        apData = recvData.hex()
+        a = apData.split("cc83")
+        a = a[2:]
+        aLen = len(a)
+        print(os.getpid())
+        for i in range(aLen):
+            print("AP_MAC:   %s,  client_MAC:   %s,  RSSI:   %d,  噪声:   %d,  时间:   %s" % (
+                a[i][12:24], a[i][28:40], int(a[i][60:62], 16) - 256, int(a[i][62:64], 16) - 256,
+                datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
 
-    apData = recvData.hex()
-
-    a = apData.split("cc83")
-    a = a[2:]
-    aLen = len(a)
-    print(os.getpid())
-    for i in range(aLen):
-        print("AP_MAC:   %s,  client_MAC:   %s,  RSSI:   %d,  噪声:   %d,  时间:   %s" % (
-            a[i][12:24], a[i][28:40], int(a[i][60:62], 16) - 256, int(a[i][62:64], 16) - 256,
-            datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
-
+        udpSocket.close()
 
 
 if __name__ == "__main__":
-    processPool = Pool(3)
+    processPool = Pool(10)
+    udpSocket = socket(AF_INET, SOCK_DGRAM)
+    udpSocket.bind(("", 7788))
     while True:
-        for i in range(10):
-            processPool.apply_async(acceptData)
+        recvData, recvAddr = udpSocket.recvfrom(2048)
+        if recvData:
+            processPool.apply_async(acceptData,(udpSocket,recvData))
+    udpSocket.close()
