@@ -1,0 +1,15 @@
+MangoDB            SQL
+
+database        对应  database
+
+collection      对应  table
+
+document        对应  row       （数据记录行）
+
+field           对应   column     字段
+
+index           对应   index     索引
+
+table joins     对应                MangoDB不支持
+
+primary key     对应    primary key   （MongoDB自动将_id 字段设置为主键）

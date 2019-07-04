@@ -14,3 +14,8 @@
 2、测试新系统bug
 3、开通三家门店的用户画像
 4、python与mysql数据库交互学习
+
+周四
+1、MongoDB-python入门教程
+2、简单AP接收数据存入mysql数据库功能用python实现，并测试效果
+
