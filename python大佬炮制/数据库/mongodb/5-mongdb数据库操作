@@ -1,0 +1,47 @@
+一 数据库操作
+
+1／创建数据库
+use databasename
+
+2／ 查看所有数据库
+show dbs
+
+3／ 删除数据库
+db.dropDatabase()
+
+
+二 集合（表）操作
+
+db.createCollection('stu',{参数})   #集合名
+
+    db.createColletion('stu',{capped:true,size:10})    #限制集合大小，超过大小自动覆盖
+
+
+show collections      查看集合
+
+db.stu.drop()         删除集合
+
+
+三 文档的增删改查
+db.stu.insert({name:1,age:34})  增加
+
+db.stu.find()    查找
+
+db.stu.update({},{},{})   第一个{}查找要替换的，第二个是{}是要替换成什么,第三个是参数{}
+
+    db.stu.update({},{name:'wade'})     将第一个{}匹配到的第一条记录替换到{name:'wade'}
+                                        删除全部字段，只保留{name:'wade'}
+    db.stu.update({},{$set: {name:'wade'}})   将第一个{}匹配到的第一条记录中的name的值替换为wade
+
+    db.stu.update({},{name:'wade'},{mulit:true})   替换掉查找到的所有行
+
+save 保存
+
+    db.stu.save(_id:"20161683265",name:'wade')  如果：_id存在则修改，如果不存在则添加
+
+删除
+   第一个{}是删除文档的条件   justOne是可选条件，如果设置为true,则删除一条，默认false,表示删掉匹配条件的行
+   db.stu.remove({name:"wade"},{justOne:true})
+
+   db.stu.remove({})   无条件就删除所有
+
