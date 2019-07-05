@@ -1,0 +1,25 @@
+$math 用于过滤数据，只输出符合条件的文档
+
+例1：查询年龄大于的学生
+    db.stu.aggregate([
+    {$match:{
+        age:{$gt:22}
+        }
+        }
+    ])
+
+例2 查询年龄大22于的男生和女生人数
+
+    db.stu.aggregate([
+    {$match:{
+        age:{$gt:22}
+        }
+        },
+
+    {$group:{
+            _id:'$grener',
+            counter:{$sum:1}
+
+            }}
+
+    ])
