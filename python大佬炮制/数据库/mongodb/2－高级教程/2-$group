@@ -107,3 +107,95 @@ db.stu.aggregate([
         25.0
     ]
 }
+
+＃＃＃＃＃＃＃＃＃＃＃＃＃
+按性别分组并把年龄放到一个数组里
+
+db.stu.aggregate([
+{$group:
+    {
+        _id:"$grener",
+        counter:{$push:'$$ROOT'}   #返回整个文档
+        }
+
+    }
+
+])
+
+
+
+##结果
+/* 1 */
+{
+    "_id" : 0.0,
+    "counter" : [
+        {
+            "_id" : ObjectId("5d1eff2b05a9547ce2ed34e8"),
+            "name" : "natash",
+            "age" : 26.0,
+            "grener" : 0.0
+        },
+        {
+            "_id" : ObjectId("5d1eff2b05a9547ce2ed34e9"),
+            "name" : "lily",
+            "age" : 21.0,
+            "grener" : 0.0
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : 1.0,
+    "counter" : [
+        {
+            "_id" : ObjectId("5d1efedb05a9547ce2ed34e3"),
+            "name" : "wade",
+            "age" : 28.0,
+            "grener" : 1.0
+        },
+        {
+            "_id" : ObjectId("5d1efef405a9547ce2ed34e4"),
+            "name" : "wade",
+            "age" : 28.0,
+            "grener" : 1.0
+        },
+        {
+            "_id" : ObjectId("5d1efef405a9547ce2ed34e5"),
+            "name" : "wade",
+            "age" : 28.0,
+            "grener" : 1.0
+        },
+        {
+            "_id" : ObjectId("5d1efef405a9547ce2ed34e6"),
+            "name" : "wade",
+            "age" : 28.0,
+            "grener" : 1.0
+        },
+        {
+            "_id" : ObjectId("5d1eff2b05a9547ce2ed34e7"),
+            "name" : "wade",
+            "age" : 22.0,
+            "grener" : 1.0
+        },
+        {
+            "_id" : ObjectId("5d1eff2b05a9547ce2ed34ea"),
+            "name" : "jony",
+            "age" : 25.0,
+            "grener" : 1.0
+        }
+    ]
+}
+
+＃＃＃＃＃＃＃＃＃＃＃＃＃
+把所有数据放一个组
+db.stu.aggregate([
+{$group:
+    {
+        _id:"$null",      ＃所有数据分到同一个组
+        counter:{$push:'$$ROOT'}   #返回整个文档
+        }
+
+    }
+
+])
