@@ -16,8 +16,10 @@
 4、python与mysql数据库交互学习
 
 周四
-1、MongoDB入门教程
+1、MongoDB-python入门教程
 
 周五
-1 MongDB基础教程.
-2福新门店装修设备布点图标注
+1 MongoDB-python基础教程.
+2 晶艺福新门店装修设备布点图标注
+3 吉祥珠宝更改crm_shop_id
+4 江西永恒珠宝系统开通

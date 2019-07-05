@@ -1,0 +1,17 @@
+获取文档数量限制
+
+db.stu.aggregate([{$limit:2}])
+
+
+db.stu.aggregate(
+[
+{
+$sort:
+{age:1}
+    },
+{
+$skip:1  },   ＃这里limit 和 skip是分前后顺序的
+{$limit:2}
+
+]
+)

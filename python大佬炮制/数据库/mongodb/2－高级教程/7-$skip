@@ -1,0 +1,17 @@
+跳过多个文档，返回后面的文档
+
+db.stu.aggregate([{$skip:2}])
+
+
+db.stu.aggregate(
+[
+{
+$sort:
+{age:1}
+    },
+{
+$skip:1  },    ＃这里limit 和 skip是分前后顺序的
+{$limit:2}
+
+]
+)
