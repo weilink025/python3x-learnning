@@ -1,0 +1,177 @@
+$unwind
+
+将文档中的某一个数组类型字段拆分成多条，每条包含数组中的一个值
+＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+语法1
+    1 对某个字段进行拆分
+        db.集合名称.aggregate([{$unwind:'字段名称'}])
+
+    2 构造数据
+        db.yf.insert({_id:01,item:t-shirt,size:['s','m','l']})
+
+
+    3 查询.
+        db.yf.aggregate(
+        [
+        {
+        $unwind:'$size'
+
+            }
+
+        ]
+
+        )
+
+
+        结果＃＃＃＃＃＃＃＃
+
+                    /* 1 */
+            {
+                "_id" : 1.0,
+                "item" : "t-shirt",
+                "size" : "s"
+            }
+
+            /* 2 */
+            {
+                "_id" : 1.0,
+                "item" : "t-shirt",
+                "size" : "m"
+            }
+
+            /* 3 */
+            {
+                "_id" : 1.0,
+                "item" : "t-shirt",
+                "size" : "l"
+            }
+
+
+＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+语法2
+对某字段值进行拆分
+处理空数组、非数组、无字段、null情况
+
+    db.集合.aggregate([{
+        $unwind:{
+            path:'$字段名称',
+            preserveNullAndEmptyArrays:<boolean>#防止数据丢失
+        }
+    }])
+
+    构造数据：
+    db.testcollection.insert({_id:01,name:'01d',size:['s','m','l']})
+    db.testcollection.insert({_id:02,name:'01d',size:[]})
+    db.testcollection.insert({_id:03,name:'01d',size:null})
+    db.testcollection.insert({_id:04,name:'01d',size:'M'})
+    db.testcollection.insert({_id:05,name:'01d'})
+
+
+    普通拆分会丢掉空字段和NULL
+     db.testcollection.aggregate(
+        [
+        {
+        $unwind:'$size'
+
+            }
+
+        ]
+
+        )
+
+        ＃＃＃＃＃结果
+                /* 1 */
+        {
+            "_id" : 1.0,
+            "name" : "01d",
+            "size" : "s"
+        }
+
+        /* 2 */
+        {
+            "_id" : 1.0,
+            "name" : "01d",
+            "size" : "m"
+        }
+
+        /* 3 */
+        {
+            "_id" : 1.0,
+            "name" : "01d",
+            "size" : "l"
+        }
+
+        /* 4 */
+        {
+            "_id" : 4.0,
+            "name" : "01d",
+            "size" : "M"
+        }
+
+
+        ＃＃＃＃＃＃＃＃＃＃＃＃
+        防止数据丢失，空字段也显示
+
+                db.testcollection.aggregate(
+        [
+        {
+        $unwind:{
+            path:'$size',
+            preserveNullAndEmptyArrays:true
+
+            }
+            }
+        ]
+
+        )
+
+
+
+        ########结果 显示所有数据
+
+                /* 1 */
+        {
+            "_id" : 1.0,
+            "name" : "01d",
+            "size" : "s"
+        }
+
+        /* 2 */
+        {
+            "_id" : 1.0,
+            "name" : "01d",
+            "size" : "m"
+        }
+
+        /* 3 */
+        {
+            "_id" : 1.0,
+            "name" : "01d",
+            "size" : "l"
+        }
+
+        /* 4 */
+        {
+            "_id" : 2.0,
+            "name" : "01d"
+        }
+
+        /* 5 */
+        {
+            "_id" : 3.0,
+            "name" : "01d",
+            "size" : null
+        }
+
+        /* 6 */
+        {
+            "_id" : 4.0,
+            "name" : "01d",
+            "size" : "M"
+        }
+
+        /* 7 */
+        {
+            "_id" : 5.0,
+            "name" : "01d"
+        }
