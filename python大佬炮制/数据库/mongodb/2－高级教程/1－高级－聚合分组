@@ -14,7 +14,7 @@ db.stu.aggregate([{管道:{表达式}}])
 
 表达式
 
-    $sum
+    $sum    $sum:1
     $avg
     $max
     $min
