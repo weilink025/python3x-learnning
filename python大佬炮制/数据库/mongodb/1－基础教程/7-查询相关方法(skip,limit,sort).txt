@@ -1,0 +1,28 @@
+1 limit  指定文档数量
+
+    db.stu.find().limit(10)   读取10条记录
+
+2 skip   用于跳过指定数量的文档.
+
+    db.stu.find().skip(2)  跳过前两条从第三条记录开始显示
+
+3 limit和skip一起使用,不分先后顺序
+    db.stu.find().skip(3).limit(5)
+
+4  sort  排序
+
+    find().sort({字段1：1,字段2：-1})   ＃值1表示升序，－1表示降序
+
+    db.stu.find().sort({age:1})
+
+5  count 统计个数
+
+    find({条件}).count() 或 count({条件})
+
+    db.stu.find({gender:1}).count()    统计所有统计信息
+
+    或  db.stu.count({gender:1}))
+
+6  distinct  对数据进行去重
+
+    db.stu.distinct('name',{})   对name进行去重，最后剩下name一个字段

@@ -1,0 +1,25 @@
+聚合（aggregate）主要用于计算数据，类似sql中的sum／avg
+
+db.stu.aggregate([{管道:{表达式}}])
+
+常用管道
+    $group   分组
+    $match    过滤
+    $project  修改文档结构
+    $sort
+    $limit
+    $skip
+    $unwind   将数组进行拆分
+
+
+表达式
+
+    $sum
+    $avg
+    $max
+    $min
+    $push   在文档中插入值到一个数组中
+    $first  根据资源文档的排序获取第一个文档数据.
+    $last   根据资源文档的排序获取最后一个文档数据.
+    
+    
