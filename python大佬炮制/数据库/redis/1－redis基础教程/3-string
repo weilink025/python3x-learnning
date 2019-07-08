@@ -1,0 +1,68 @@
+string是redis最基本的类型
+
+最大能存储512MB数据
+
+string类型是二进制安全的，即可以为任何数据，比如数字/图片/序列化对象等
+
+
+命令：
+    设置键值
+        SET key value
+
+        例：SET 'wade' '12'
+
+    设置键值及过期时间，以秒为单位
+
+        SETEX key seconds value
+
+        SETEX 'wade' 2 '34'   #2秒删除的键值对
+
+    设置多个键值
+
+        MSET key value [key value……]
+
+        MSET 'wade' 24 'zhangwei' 30
+
+
+    获取
+        根据键获取值，如果不存在则返回nil
+
+            GET key
+
+        获取多个键值
+
+            MGET key [key……]
+    运算
+        1－－－将key对应的value加1
+        要求值是数字
+            INCR key
+            ######
+            set wade 12
+
+            INCR wade  输出结果. 13
+
+        2－－－将对应的value加整数
+            INCRBY key increment
+
+            INCRBY key 12    加12
+
+
+        3－－－将对应的value减1
+
+            DECR key
+
+        4－－－将对应的value减整数
+            DECRBY key increment
+
+    其它
+
+        追加值
+            APPEND key value
+
+                set a 12
+
+                APPEND a 12   结果是1212.
+
+        查看value长度
+
+            strlen key

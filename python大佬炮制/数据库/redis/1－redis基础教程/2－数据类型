@@ -1,0 +1,14 @@
+redis是key-values的数据，所以每个数据都是一个键值对
+
+键的类型是 字符串
+
+值的类型分为五种
+
+    字符串string
+    哈希  hash
+    列表  list
+    集合  set
+    有序集合    zset
+
+
+官方网站 redis.cn

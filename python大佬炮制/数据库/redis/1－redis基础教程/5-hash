@@ -1,0 +1,73 @@
+hash 用于存储对象，对象格式为键值对
+
+命令：
+    设置
+        设置单个属性
+
+            HSET key field value
+
+                hbase py3 name 'wade'
+
+        设置多个属性
+
+            HESET key field value [field value ……]
+
+                HESET stu name wade age 24 gender boy
+
+
+
+    获取
+        获取一个属性的值
+
+            HGET key field
+
+                HGET stu name   得到key中name字段的值
+
+        获取多个属性的值
+
+            HMGET key field [field ……]
+
+                HMGET stu name age gender
+
+
+        获取所有属性的键和值
+
+            HGETALL key
+                结果
+                    1) "name"
+                    2) "wade"
+                    3) "age"
+                    4) "12"
+                    5) "gender"
+                    6) "man"
+
+        获取所有属性
+
+             HKEYS key
+
+                    1) "name"
+                    2) "age"
+                    3) "gender"
+
+
+        返回包含属性的个数
+                    HLEN key
+
+
+
+        获取所有值
+
+                    HVALS key
+
+
+    其它
+
+        判断属性是否存在
+            HEXISTS key field
+
+        删除属性和值
+            HDEL key field [field ……]
+
+        返回值的字符串长度
+
+            HSTRLEN key field

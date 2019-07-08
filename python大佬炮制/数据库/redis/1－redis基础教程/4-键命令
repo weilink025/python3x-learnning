@@ -1,0 +1,24 @@
+键的命令
+
+    查找键，参数支持正则
+
+        KEYS pattern(通配符)  查看所有键  keys *
+
+    判断是否存在，如果存在返回1，不存在返回0
+
+        EXISTS key [key……]
+
+    查看键对应的value类型
+
+        TYPE key
+
+    删除键及对应的值
+
+        DEl key
+
+    设置过期时间
+
+        EXPRIE key seconds
+
+
+
