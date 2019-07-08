@@ -1,0 +1,31 @@
+＃＃＃＃＃＃＃对比建立索引前后 程序的执行时间
+    find().explain('executionStats')
+
+    构造数据
+        for(i=0;i<10000;i++)
+        {
+        db.stu.insert({name:'name'+i,age:i})
+
+        }
+
+    ＃＃＃＃查询程序执行时间
+    find().explain('executionStats')
+
+＃＃＃＃
+
+索引操作
+＃＃＃＃
+    针对字段创建索引
+        db.stu.ensureIndex({name:1})    1表示升序，－1表示降序
+
+    建立唯一索引
+        db.stu.ensureIndex({name:1},{unique:true})
+
+    联合索引
+        db.stu.ensureIndex({name:1,age:1})
+
+    查看文档所有索引
+        db.stu.getIndexes()
+
+    删除索引
+        db.stu.dropIndexes('索引名称')
