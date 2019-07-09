@@ -41,7 +41,7 @@ redis 127.0.0.1:6379[1]> config get requirepass
 
 2.通过命令行进行配置
 
-redis 127.0.0.1:6379[1]> config set requirepass my_redis
+redis 127.0.0.1:6379[1]> ccon
 OK
 redis 127.0.0.1:6379[1]> config get requirepass
 1) "requirepass"
