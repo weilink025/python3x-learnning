@@ -1,0 +1,43 @@
+list
+    列表元素类型为string
+    按照插入顺序
+    在列表的头部或尾部添加
+
+命令
+    设置
+        在头部插入数据
+            LPUSH key value [value ....]
+
+        在尾部插入数据
+            RPUSH key value [value ....]
+
+        在元素的前|后插入新元素
+            LINSERT key before|after pviot value
+
+        设置指定索引的元素
+        索引是基于0的下标
+        索引可以是负数，表示偏移量
+            LSET key index value
+
+    获取
+        移除并返回头部的值
+        LPOP key
+
+        移除并返回尾部的值
+        RPOP key
+
+        返回对应索引范围的
+        LRANGE key start stop
+
+    其它
+        裁剪列表，改为原集合的一个
+            LTRIM key start stop
+
+        返回存储在key里的list的长度
+
+            LLEN key
+
+        返回列表里索引对应的元素
+            LINDEX key index
+
+
