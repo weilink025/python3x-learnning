@@ -6,7 +6,7 @@ use databasename
 2／ 查看所有数据库
 show dbs
 
-3／ 删除数据库
+3／ 删除数据库 先use db  再执行删除操作
 db.dropDatabase()
 
 
