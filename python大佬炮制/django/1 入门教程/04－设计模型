@@ -1,6 +1,4 @@
-django-admin startproject [项目名称]
 
-python manage.py startapp [app名称]
 
 
 模型设计介绍
@@ -17,3 +15,34 @@ python manage.py startapp [app名称]
             英雄性别：hgender
             英雄简介：hcontent
             所属图书：hbook
+
+
+一 在新建的app应用中,创建模型类（tushu）
+
+        from django.db import models
+
+        class BookInfo(models.Model):
+            btitle = models.CharField(max_length=20)
+            bpub_data = models.DateField()
+
+        class HeroInfo(models.Model):
+            hname = models.CharField(max_length=10)
+            hgender = models.BooleanField()
+            hcontent = models.CharField(max_length=1000)
+            hbook = models.ForeignKey(BookInfo)
+
+二 在项目settings.py，增加你的APP应用（tushu）
+
+            INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'tushu'
+                                ]
+
+三 生成模型迁移
+
+        python manage.py makemigrations
