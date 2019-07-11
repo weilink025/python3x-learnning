@@ -20,5 +20,5 @@
 周四
 1、数据接收入库优化时间戳字段（日后优化数据第一步处理逻辑）
 2、python之mysql,mongodb,redis数据库回顾
-3、django框架入门教程
+3、django框架入门教程-models,后台管理
 4 安装新买投影仪
