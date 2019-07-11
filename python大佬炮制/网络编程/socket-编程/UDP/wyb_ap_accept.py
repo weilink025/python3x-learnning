@@ -23,7 +23,7 @@ def acceptData(udpSocket,recvData):
 if __name__ == "__main__":
     processPool = Pool(10)
     udpSocket = socket(AF_INET, SOCK_DGRAM)
-    udpSocket.bind(("", 7788))
+    udpSocket.bind(("", 7728))
     while True:
         recvData, recvAddr = udpSocket.recvfrom(2048)
         if recvData:

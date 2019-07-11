@@ -11,3 +11,14 @@
 2 python与mongodb交互
 3 python与redis交互
 
+周三
+
+1、投影仪到货，测试一下
+2、python编写AP接收数据入库初步实现
+3、配置一个AP
+
+周四
+1、数据接收入库优化时间戳字段（日后优化数据第一步处理逻辑）
+2、python之mysql,mongodb,redis数据库回顾
+3、django框架入门教程
+
