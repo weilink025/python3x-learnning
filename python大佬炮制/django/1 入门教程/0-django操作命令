@@ -8,3 +8,10 @@ python manage.py startapp [app名称]
 ＃＃建立模型后生成迁移
 
     python manage.py makemigrations
+
+#生成数据表
+    python manage.py migrate
+
+#测试数据操作
+
+    python manage.py shell
