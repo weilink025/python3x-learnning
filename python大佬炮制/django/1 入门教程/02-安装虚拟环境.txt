@@ -1,0 +1,76 @@
+""""
+
+安装 virtualenv:
+
+ 首先，需要安装 setuptools 等一些模块：
+sudo apt-get install python-setuptools python-dev build-essential
+
+ 然后安装 pip，接下来的virtualenv等环境可以通过 pip来安装:
+1
+
+sudo apt-get install python-pip
+
+  详细的 pip 安装可参考文档： http://pip-cn.readthedocs.io/en/latest/installing.html
+
+接着，我们可以通过 pip 来安装 virtualenv：
+1
+
+$ sudo pip install virtualenv
+
+此时，我们可以为项目创建虚拟环境了：
+1
+
+$ virtualenv <虚拟环境名>
+
+该命令会在当前文件创建一个虚拟环境文件夹，其包含了 Python 可执行文件及 pip 库的拷贝。可以切换进我们创建的虚拟环境目录后，通过 source bin/activate 指令来激活。此时，你终端最左边会有出现你之前通过 virtualenv 指令来创建的名称，表明你已经进入到虚拟环境来了。这时候，你可以通过 pip 来安装你需要的任何python 库。比如安装 theano, 可以通过下列指令安装：
+1
+
+$ pip install theano
+
+通过 pip list 指令来查看已安装的库列表。
+
+退出该虚拟环境的指令：
+1
+
+$ deactivate
+
+删除最简单，直接 rm -rf 当前文件夹即可。
+
+
+
+安装 virtualenvwrapper：
+
+通过 virtualenv 安装虚拟环境，使用是比较麻烦，管理起来也很烦。建议安装 virtualenvwrapper，通过它来使得虚拟环境工作变得方便。
+
+安装：
+1
+
+pip install virtualenvwrapper
+
+ 默认 virtualenvwrapper 安装在 /usr/local/bin 下面
+
+ 我们可以接着创建一个文件夹来存放虚拟环境，如：
+1
+
+$ mkdir $HOME/.virtualenvs
+
+ 接着，我们需要配置下 ~/.bashrc，将 virtualenv 添加进去：
+1
+2
+
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
+ 让 bashrc 生效：
+1
+
+source ~/.bashrc
+
+这样， virtualenvwrapper 就安装好了。我们可以通过下面的命令来安装虚拟环境：
+1
+
+mkvirtualenv <虚拟环境名>
+
+ 这个时候，会在 WORKON_HOME 制定的目录中创建这个文件夹。我们可以通过 workon + <Tab按键> 来选择虚拟环境。
+
+"""

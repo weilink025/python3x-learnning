@@ -1,0 +1,19 @@
+django-admin startproject [项目名称]
+
+python manage.py startapp [app名称]
+
+
+模型设计介绍
+    "图书－英雄" 信息维护，需要存储两种数据：图书/英雄
+        图书表结构
+            表名：BookInfo
+            图书名称：btitle
+            图书发布时间：bpub_data
+
+
+        英雄表结构设计：
+            表名：HeroInfo
+            英雄姓名：hname
+            英雄性别：hgender
+            英雄简介：hcontent
+            所属图书：hbook

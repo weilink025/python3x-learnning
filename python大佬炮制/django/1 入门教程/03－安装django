@@ -1,0 +1,19 @@
+查看已经安装包
+
+pip list
+
+    Package    Version
+    ---------- ---------
+    certifi    2019.6.16
+    pip        19.1.1
+    pymongo    3.8.0
+    redis      3.2.1
+    setuptools 41.0.1
+    wheel      0.33.4
+
+pip freeze  ＃导出后可用来安装  pip install redis==3.2.1
+    certifi==2019.6.16
+    pymongo==3.8.0
+    redis==3.2.1
+
+
