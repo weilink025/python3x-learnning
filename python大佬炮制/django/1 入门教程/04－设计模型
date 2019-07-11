@@ -46,3 +46,9 @@
 三 生成模型迁移
 
         python manage.py makemigrations
+
+
+四 执行模型迁移
+
+        python manage.py migrate
+

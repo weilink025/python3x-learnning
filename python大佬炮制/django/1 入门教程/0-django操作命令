@@ -15,3 +15,8 @@ python manage.py startapp [app名称]
 #测试数据操作
 
     python manage.py shell
+
+
+#创建后台管理超级管理员账号密码
+
+    python manage.py createsuperuser
