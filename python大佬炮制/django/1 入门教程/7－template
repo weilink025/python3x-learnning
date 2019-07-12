@@ -1,0 +1,25 @@
+1／项目settings中增加： 'DIRS': [os.path.join(BASE_DIR,'templates')]
+并新templates文件夹
+
+2／建立app应用对应的模板文件  tushu/index.html
+
+
+3／在view中调用模板
+
+    from django.shortcuts import render
+    from django.http import *
+    from django.template import RequestContext,loader
+    # Create your views here.
+
+    ##新写法
+    def index(request):
+        return render(request,'tushu/index.html')
+
+    ##旧写法
+
+    """
+    def index(request):
+        temp=loader.get_template("tushu/index.html")
+
+        return HttpResponse(temp.render())
+    """

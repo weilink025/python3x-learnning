@@ -1,0 +1,19 @@
+1/ views引入模型
+    from .models import *
+
+
+    def index(request):
+
+    booklist = BookInfo.objects.all()    ＃查询到
+    context = {'title':booklist}
+    return render(request,'tushu/index.html',context)
+
+
+2/模板中遍历
+    <ul>
+    {%for book in title%}
+    <li>
+    {{book.btitle}}----{{book.bpub_date}}
+    </li>
+    {%endfor%}
+    </ul>

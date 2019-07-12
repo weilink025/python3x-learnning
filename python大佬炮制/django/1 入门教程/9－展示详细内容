@@ -1,0 +1,23 @@
+    path('hello/<int:id>',views.show)   #配置新urls
+
+
+    view配置详细内容
+
+        def show(request,id):
+        book=BookInfo.objects.get(pk=id)
+        Herolist=book.heroinfo_set.all()
+
+        context = {'title':Herolist}
+        return render(request, 'tushu/show.html', context)
+
+    <a href="{{book.id}}">{{book.btitle}}</a>  设置跳转链接
+
+
+    遍历展示数据
+
+    {%for book in title%}
+    <li>
+    {{book.hname}}----{{book.hcontent}}
+    </li>
+    {%endfor%}
+    </ul>
