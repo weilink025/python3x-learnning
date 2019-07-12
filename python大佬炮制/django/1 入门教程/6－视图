@@ -1,0 +1,30 @@
+app应用的viems定义视图
+
+一＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+    1/views.py增加
+        from django.http import *
+
+        # Create your views here.
+
+        def index(request):
+            return HttpResponse('hello world')
+
+    2/应用内新建urls
+        from django.urls import path
+        from . import views
+
+
+        urlpatterns = [
+            path('', views.index)
+        ]
+
+    3/项目中的urls include引入应用内urls
+
+        from django.contrib import admin
+        from django.urls import path,include
+
+
+        urlpatterns = [
+            path('admin/', admin.site.urls),
+            path('', include('tushu.urls'))
+        ]

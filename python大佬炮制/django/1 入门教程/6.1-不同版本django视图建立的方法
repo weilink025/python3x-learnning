@@ -1,0 +1,31 @@
+views.py
+
+    from django.http import  HttpResponse
+
+    def hello(request):
+    	return HttpResponse('Hello World!')
+
+若为Django 1.8
+
+urls.py
+
+    from django.conf.urls import patterns, include, url
+    from django.contrib import admin
+
+    urlpatterns = [
+    url(r'^admin/', include(admin.site.urls)),
+    url(r'^hello/', 'testapp.views.hello'),
+    ]
+
+
+
+若为Django 2.0
+
+    from django.contrib import admin
+    from django.urls import path
+    from firstapp import views
+
+    urlpatterns = [
+        path('admin/', admin.site.urls),
+        path('hello/',views.hello)
+    ]
