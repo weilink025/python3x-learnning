@@ -76,10 +76,24 @@ WSGI_APPLICATION = 'djangostudy.wsgi.application'
 
 DATABASES = {
     'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'learnningdb',
+        'HOST':'localhost',
+        'PORT':3306,
+        'USER':'root',
+        'PASSWORD':'wade'
+    }
+}
+
+"""
+DATABASES = {
+    'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+"""
+
 
 
 # Password validation

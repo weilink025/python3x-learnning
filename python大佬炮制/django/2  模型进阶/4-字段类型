@@ -1,0 +1,4 @@
+字段类型：
+    AutoField:一个根据实际ID自动增加的整数，通常不指定
+    BooleanField: True/False
+    NullBooleanField:支持null,true,false三种值

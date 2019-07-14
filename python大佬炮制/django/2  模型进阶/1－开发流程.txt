@@ -1,0 +1,24 @@
+#slq
+
+    #‘ENGINE‘：'django.db.backends.mysql'
+    #’NAME‘：’test‘
+    #'USER':'root'
+    #'PASSWORD':'mysql'
+    #'HOST':'localhost'
+    #'PORT':'3306'
+
+#开发流程：
+    1 在settings中设置数据库
+    2 在models.py定义模型类，要求继承自models.Model
+    3 把应用加入setting.py 文件的installed_app
+    4 生成迁移文件
+    5 执行迁移生成表
+    6 使用模型类进行crud操作
+
+使用数据库生成模型类
+
+python manage.py inspectdb > booktest/models.py
+
+
+
+

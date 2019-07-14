@@ -10,7 +10,9 @@
     临时使用：
 
         可以在使用pip的时候在后面加上-i参数，指定pip源
-        eg: pip install scrapy -i https://pypi.tuna.tsinghua.edu.cn/simple
+        eg:
+
+
 
     永久修改：
 

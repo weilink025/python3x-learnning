@@ -1,0 +1,20 @@
+方法很简单，查看一下user表，错误的起因就是在这里， root的plugin被修改成了auth_socket，用密码登陆的plugin应该是mysql_native_password。(由于可以用sudo mysql -uroot -p进入，所以并不需要以安全模式启动)
+mysql> select user, plugin from mysql.user;
++-----------+-----------------------+
+| user      | plugin                |
++-----------+-----------------------+
+| root      | auth_socket           |
+| mysql.sys | mysql_native_password |
+| dev       | mysql_native_password |
++-----------+-----------------------+
+3 rows in set (0.01 sec)
+
+只要把auth_socket改成mysql_native_password就行了：
+mysql> update mysql.user set authentication_string=PASSWORD('111111'),
+plugin='mysql_native_password' where user='root';
+Query OK, 1 row affected, 1 warning (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 1
+
+mysql> flush privileges;
+Query OK, 0 rows affected (0.00 sec)
+
