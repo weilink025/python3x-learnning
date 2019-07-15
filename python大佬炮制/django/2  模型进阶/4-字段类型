@@ -2,3 +2,44 @@
     AutoField:一个根据实际ID自动增加的整数，通常不指定
     BooleanField: True/False
     NullBooleanField:支持null,true,false三种值
+    CharField(max_length=字段长度)  默认表单样式 Textinput
+    TextField:大文本字段，一般超过4000使用，默认表单样式Textarea
+    IntergerField:整数
+    DecimalField(max_digits=None,Decimal_places=None)   包括位数，小数点位数
+    FloatField
+    DateField
+    TimeField
+    DateTimeField
+    FileField  基本不用
+    ImageField   基本不用
+
+字段选项
+    通过字段选项，可以实现对字段的约束
+    在字段对象时通过关键字参数指定
+    null 如果为True,则允许为空
+    blank:如果为True，则允许为null值
+    对比：null是数据库范畴的概念，blank是表单验证范畴的
+    db_colum：字段名称，如果未指定，则使用属性名称，数据表的字段名
+    db_index:若为True,则在表中会为此字段创建索引
+    default:默认值
+    primary_key:若为True,则该字段会成为模型的主键字段
+    unique:如果为True,这个字段在表中必须有一个唯一的值
+
+
+关系
+    关系类型包括：
+        Foreignkey:一对多，将字段定义在多的端中
+        ManyToManyField：多对多，将字段定义在两端中
+        OneToOneField:一对一，将字段定义任一端
+
+        BookInfo(models.Model)
+
+        HeroInfo(models.Model)
+            book=models.ForeignKey(BookInfo)
+
+        查找英雄对应哪本书
+            hero.book
+            hero.book_id
+        查找某本书有哪些英雄
+            book.heroinfo_set
+
