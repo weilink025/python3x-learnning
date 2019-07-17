@@ -1,0 +1,8 @@
+使用aggretate()返回聚合函数的值
+    函数:Avg,Count,Max,Min,Sum
+
+        from django.db.models import Max
+        maxDate = list.aggreate(max('bpub_date'))
+
+    count的一般用法
+        count = list.count()

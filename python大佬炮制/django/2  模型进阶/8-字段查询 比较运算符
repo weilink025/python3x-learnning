@@ -1,0 +1,52 @@
+实现where子名，作为方法filter()，exclude()，git()的参数
+语法：属性名称__比较运算符=值
+
+表示两个下划线，左侧是属性名称，右侧是比较类型
+
+对于外键，使用属性名_id,表示外键的原始值
+
+转义：like语句中使用%与，匹配数据中的%与，在过滤器中直接写
+    filter(title__contains="%")  不需要转义
+
+比较运算符
+    1 exact：表示判等，大小写敏感，没写比较运算符就表示判等
+
+        filter(isDelete=False)
+
+    2 contains 是否包含，大小写敏感
+
+        exclude(btitle__contains='付')
+
+    3 startswith  endswith:以value开头或结尾，大小写敏感
+
+        exclude(btitle__endswith='传')
+
+    4 isnull isnotnull  是否为null
+
+        filter(btitle__isnull = False)
+
+    5 在运算前加i 表示不区分大小写
+        如iexact icontains istartswith iendswith
+
+    6 in是否在包含的范围内
+        filter(pk__in=[1,2,3,4,6])
+
+    7 gt gte lt lte
+
+    8 year month day week_day hour minute second 对日期类型属性进行运算
+        filter(bpub_date_year=1990)
+        filter(bpub_date_gt=date(1989,12,31))
+
+    9 跨关联关系查询：处理join查询
+        语法：模型类名<属性名><比较>
+
+        注：可以没有__比较部分，表示等于，结果同inner join
+        可逆向使用，即关联的两个模型都可以使用
+
+        filter(heroinfo__hcontent__contains='九')
+
+    10 查询快捷键 pk表示primary key,默认的主键id
+
+
+
+
