@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 class BookInfoManager(models.Manager):
     def get_queryset(self):
-        return super(BookInfoManager,self).get_queryset().filter(isDelete = False)
+        return super(BookInfoManager,self).get_queryset().filter(isDelete = True)
 
     def create(self,title,pub_date):
         book = self.model()
