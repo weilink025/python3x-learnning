@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b408cdf9-bf97-40b9-b28c-ebc909605cd4" name="Default Changelist" comment="python" />
+    <list id="1ddb0665-97bc-410b-bee2-2b2f713e82c6" name="Revert: django" comment="" />
+    <ignored path="C:\Users\wade\PycharmProjects\python3x-learnning\.idea\shelf/" />
+    <ignored path=".idea/" />
+    <ignored path="venv/pyvenv.cfg" />
+    <ignored path="venv/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="learnningdb" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="learnningdb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="learnningdb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="learnningdb" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="python3x-learnning" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/testmodel/testapp/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="vcs://python大佬炮制/django/2  模型进阶/1－开发流程.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="vcs://python大佬炮制/django/2  模型进阶/4-字段类型">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-94">
+              <caret line="32" column="33" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="32" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="vcs://python大佬炮制/django/2  模型进阶/3－定义属性">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="vcs://python大佬炮制/django/2  模型进阶/2-属性要求">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="361f4e94bb5ecfda283c3de302152a2af044cb95" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/python大佬炮制/生成器、闭包、装饰器/元类/type创建类.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket套接字.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/socket套接字.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/socke绑定端口.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/系统编程/进程/进程池pool.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/系统编程/进程/9-进程间通信-queues.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/系统编程/进程/进程间通信-queue.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/UDP socke发送端.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/test.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/简单聊天室功能.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/UDP socke接收端.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/生成器、闭包、装饰器/echo服务器..py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/echo服务器..py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/模拟QQ聊天.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/tftp客户端代码编写.py" />
+        <option value="$PROJECT_DIR$/TEST.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/系统编程/进程/5-进程创建-Process子类.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/并发服务器/单进程服务器.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/并发服务器/多进程服务器.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/并发服务器/多进程服务器Process.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/并发服务器/多进程服务器Pool.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/生成器、闭包、装饰器/闭包(重要).py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/系统编程/进程/0-Process和Pool不同点（自已）.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/服务器/1.http" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/服务器/HTTP协议详解.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/web服务器案例/简易web服务器代码编写.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/web服务器案例2/二进制读写与文本读写的区别.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/web服务器案例2/面对对象编写web服务器.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/删.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/增.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/改.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/查.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/mysql与python连接.py" />
+        <option value="$PROJECT_DIR$/pycharm快捷键.txt" />
+        <option value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/参数化.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/数据库/mongodb/mongodb基础" />
+        <option value="$PROJECT_DIR$/python大佬炮制/数据库/mongodb/MongDB名词解释" />
+        <option value="$PROJECT_DIR$/python大佬炮制/数据库/mongodb/mongoDB基础" />
+        <option value="$PROJECT_DIR$/工作日志（7月第1周）.txt" />
+        <option value="$PROJECT_DIR$/python大佬炮制/数据库/redis/redis与python交互.py" />
+        <option value="$PROJECT_DIR$/APtest/sql.py" />
+        <option value="$PROJECT_DIR$/APtest/wyb_ap_accept.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/UDP/wyb_ap_accept.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/封装成类.py" />
+        <option value="$PROJECT_DIR$/APtest/ap_sql.py" />
+        <option value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/UDP/aptest.py" />
+        <option value="$PROJECT_DIR$/APtest/wyb_ap_accept0-1.py" />
+        <option value="$PROJECT_DIR$/工作日志（7月第2周）.txt" />
+        <option value="$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/testmodel/testmodel/settings.py" />
+        <option value="$PROJECT_DIR$/工作日志（7月第3周）.txt" />
+        <option value="$PROJECT_DIR$/sql有效命令" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="836" />
+    <option name="y" value="25" />
+    <option name="width" value="1451" />
+    <option name="height" value="999" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wade\PycharmProjects\python3x-learnning\python实战成神" />
+      <recent name="C:\Users\wade\PycharmProjects\python3x-learnning\python大佬炮制\网络编程" />
+      <recent name="C:\Users\wade\PycharmProjects\python3x-learnning\python大佬炮制\网络编程\socket-编程\tftp" />
+      <recent name="C:\Users\wade\PycharmProjects\python3x-learnning\python大佬炮制\网络编程\socket-编程" />
+      <recent name="C:\Users\wade\PycharmProjects\python3x-learnning\python入门大佬教程\资料" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wade\PycharmProjects\python3x-learnning" />
+      <recent name="C:\Users\wade\PycharmProjects\python3x-learnning\python大佬炮制\数据库\mongodb" />
+      <recent name="C:\Users\wade\PycharmProjects\python3x-learnning\python大佬炮制\数据库\mysql" />
+      <recent name="C:\Users\wade\PycharmProjects\python3x-learnning\python大佬炮制\网络编程\web服务器案例" />
+      <recent name="C:\Users\wade\PycharmProjects\python3x-learnning\python大佬炮制\网络编程\socket-编程\并发服务器" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.wyb_ap_accept0-1">
+    <configuration name="封装成类" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python3x-learnning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/封装成类.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="封装成类" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python3x-learnning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/封装成类.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="参数化" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python3x-learnning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/参数化.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="封装成类" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python3x-learnning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/封装成类.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="增" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python3x-learnning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/增.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="改" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python3x-learnning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/改.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="查" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python3x-learnning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python大佬炮制/数据库/mysql/查.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wyb_ap_accept (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python3x-learnning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\wade\PycharmProjects\python3x-learnning\APtest\wyb_ap_accept0-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wyb_ap_accept" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python3x-learnning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/UDP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/UDP/wyb_ap_accept.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wyb_ap_accept0-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python3x-learnning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APtest/wyb_ap_accept0-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.wyb_ap_accept0-1" />
+        <item itemvalue="Python.wyb_ap_accept" />
+        <item itemvalue="Python.封装成类" />
+        <item itemvalue="Python.wyb_ap_accept (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b408cdf9-bf97-40b9-b28c-ebc909605cd4" name="Default Changelist" comment="" />
+      <changelist id="1ddb0665-97bc-410b-bee2-2b2f713e82c6" name="Revert: django" comment="" />
+      <created>1560314002277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560314002277</updated>
+      <workItem from="1560314009838" duration="35000" />
+      <workItem from="1560314062910" duration="32090000" />
+      <workItem from="1560430015568" duration="3536000" />
+      <workItem from="1560515927778" duration="4534000" />
+      <workItem from="1560774385919" duration="3464000" />
+      <workItem from="1560859936363" duration="670000" />
+      <workItem from="1560861293966" duration="5293000" />
+      <workItem from="1560946569026" duration="1950000" />
+      <workItem from="1561040786575" duration="964000" />
+      <workItem from="1561119251083" duration="7812000" />
+      <workItem from="1561176896745" duration="1251000" />
+      <workItem from="1561384832265" duration="2569000" />
+      <workItem from="1561465856796" duration="300000" />
+      <workItem from="1561547640979" duration="8851000" />
+      <workItem from="1561640495766" duration="2103000" />
+      <workItem from="1561724571612" duration="4244000" />
+      <workItem from="1561794654880" duration="583000" />
+      <workItem from="1561795366475" duration="21000" />
+      <workItem from="1561795421316" duration="1711000" />
+      <workItem from="1561883845787" duration="1031000" />
+      <workItem from="1562125432314" duration="10399000" />
+      <workItem from="1562143057741" duration="4206000" />
+      <workItem from="1562202754462" duration="7072000" />
+      <workItem from="1562202829099" duration="107000" />
+      <workItem from="1562202979484" duration="26000" />
+      <workItem from="1562231902487" duration="1235000" />
+      <workItem from="1562552816823" duration="3000" />
+      <workItem from="1562628066531" duration="929000" />
+      <workItem from="1562663071505" duration="2384000" />
+      <workItem from="1562720910672" duration="15276000" />
+      <workItem from="1562807933644" duration="4493000" />
+      <workItem from="1563173626201" duration="2581000" />
+      <workItem from="1563178820386" duration="2232000" />
+      <workItem from="1563240829142" duration="1199000" />
+      <workItem from="1563259281214" duration="2298000" />
+      <workItem from="1563261665071" duration="91000" />
+      <workItem from="1563242037183" duration="478000" />
+      <workItem from="1563330707843" duration="1572000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一个程序">
+      <created>1560320347155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560320347155</updated>
+    </task>
+    <task id="LOCAL-00002" summary="基础学习">
+      <created>1560326577599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560326577599</updated>
+    </task>
+    <task id="LOCAL-00003" summary="基础学习">
+      <created>1560327680453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560327680453</updated>
+    </task>
+    <task id="LOCAL-00004" summary="基础学习">
+      <created>1560327829241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560327829241</updated>
+    </task>
+    <task id="LOCAL-00005" summary="基础学习">
+      <created>1560327882294</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560327882294</updated>
+    </task>
+    <task id="LOCAL-00006" summary="基础学习">
+      <created>1560331999912</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560331999912</updated>
+    </task>
+    <task id="LOCAL-00007" summary="基础学习">
+      <created>1560409764901</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560409764901</updated>
+    </task>
+    <task id="LOCAL-00008" summary="基础学习">
+      <created>1560409857728</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560409857728</updated>
+    </task>
+    <task id="LOCAL-00009" summary="大佬教程">
+      <created>1560414958773</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560414958773</updated>
+    </task>
+    <task id="LOCAL-00010" summary="大佬教程">
+      <created>1560417468450</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560417468450</updated>
+    </task>
+    <task id="LOCAL-00011" summary="大佬教程">
+      <created>1560435463165</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560435463165</updated>
+    </task>
+    <task id="LOCAL-00012" summary="大佬教程">
+      <created>1560521943472</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560521943472</updated>
+    </task>
+    <task id="LOCAL-00013" summary="大佬教程">
+      <created>1560779506749</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560779506749</updated>
+    </task>
+    <task id="LOCAL-00014" summary="网络编程">
+      <created>1560868835401</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560868835402</updated>
+    </task>
+    <task id="LOCAL-00015" summary="网络编程">
+      <created>1560946651520</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560946651520</updated>
+    </task>
+    <task id="LOCAL-00016" summary="系统编程">
+      <created>1560955601500</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560955601500</updated>
+    </task>
+    <task id="LOCAL-00017" summary="socket网络套接字">
+      <created>1561128587041</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561128587041</updated>
+    </task>
+    <task id="LOCAL-00018" summary="并发">
+      <created>1561555593229</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1561555593230</updated>
+    </task>
+    <task id="LOCAL-00019" summary="web服务器">
+      <created>1561731016123</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1561731016123</updated>
+    </task>
+    <task id="LOCAL-00020" summary="web服务器">
+      <created>1561795659848</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1561795659848</updated>
+    </task>
+    <task id="LOCAL-00021" summary="web服务器">
+      <created>1561796701408</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1561796701408</updated>
+    </task>
+    <task id="LOCAL-00022" summary="web服务器">
+      <created>1562141566640</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1562141566641</updated>
+    </task>
+    <task id="LOCAL-00023" summary="数据库mysql">
+      <created>1562142296908</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1562142296908</updated>
+    </task>
+    <task id="LOCAL-00024" summary="数据库mysql-python">
+      <created>1562142764006</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1562142764006</updated>
+    </task>
+    <task id="LOCAL-00025" summary="数据库mysql-python">
+      <created>1562142958781</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1562142958781</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Revert &quot;数据库mysql-python&quot;&#10;&#10;This reverts commit b7974d7e">
+      <created>1562143242139</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1562143242139</updated>
+    </task>
+    <task id="LOCAL-00027" summary="数据库mysql-python">
+      <created>1562143739977</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1562143739977</updated>
+    </task>
+    <task id="LOCAL-00028" summary="数据库mysql-python">
+      <created>1562148045745</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1562148045745</updated>
+    </task>
+    <task id="LOCAL-00029" summary="数据库mysql-python">
+      <created>1562205062185</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1562205062185</updated>
+    </task>
+    <task id="LOCAL-00030" summary="MongoDB">
+      <created>1562210951929</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1562210951929</updated>
+    </task>
+    <task id="LOCAL-00031" summary="MongoDB">
+      <created>1562233086972</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1562233086972</updated>
+    </task>
+    <task id="LOCAL-00032" summary="MongoDB">
+      <created>1562657984063</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1562657984063</updated>
+    </task>
+    <task id="LOCAL-00033" summary="数据库">
+      <created>1562658053108</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1562658053108</updated>
+    </task>
+    <task id="LOCAL-00034" summary="python">
+      <created>1562812535674</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1562812535674</updated>
+    </task>
+    <task id="LOCAL-00035" summary="python">
+      <created>1563242164432</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1563242164432</updated>
+    </task>
+    <task id="LOCAL-00036" summary="python">
+      <created>1563242199643</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1563242199643</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="139593000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" weight="0.40474477" />
+      <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.25266525" />
+      <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.25266525" />
+      <window_info active="true" id="Repositories" order="3" visible="true" weight="0.18203497" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48410174" weight="0.17784712" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.491238" weight="0.2852194" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960256" weight="0.32969603" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.72694755" weight="0.62090486" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5035771" side_tool="true" visible="true" weight="0.3257989" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4964229" visible="true" weight="0.3257989" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49960256" weight="0.3281372" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.30911064" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.13965885" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一个程序" />
+    <MESSAGE value="基础学习" />
+    <MESSAGE value="大佬教程" />
+    <MESSAGE value="网络编程" />
+    <MESSAGE value="系统编程" />
+    <MESSAGE value="socket网络套接字" />
+    <MESSAGE value="并发" />
+    <MESSAGE value="web服务器" />
+    <MESSAGE value="数据库mysql" />
+    <MESSAGE value="Revert &quot;数据库mysql-python&quot;&#10;&#10;This reverts commit b7974d7e" />
+    <MESSAGE value="数据库mysql-python" />
+    <MESSAGE value="MongoDB" />
+    <MESSAGE value="数据库" />
+    <MESSAGE value="python" />
+    <option name="LAST_COMMIT_MESSAGE" value="python" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python从入门到放弃/超市买苹果的案例.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python从入门到放弃/tpye函数.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python入门大佬教程/生成器、闭包、装饰器/装饰器(重要).py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python3x_learnning$input.coverage" NAME="input函数 Coverage Results" MODIFIED="1560324463753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$__send.coverage" NAME="生成器--send传值 Coverage Results" MODIFIED="1560416215644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门大佬教程/生成器、闭包、装饰器" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$print.coverage" NAME="print函数 Coverage Results" MODIFIED="1560323690440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$05__copycopy_.coverage" NAME="05_元组_深copy和浅copy 区别 Coverage Results" MODIFIED="1560406274396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门大佬教程/高级教程1" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$01_fork.coverage" NAME="01-fork Coverage Results" MODIFIED="1560408430718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/第2章 python核心编程/第2节 linux系统编程/01.系统编程-进程/源码" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$tpye.coverage" NAME="tpye函数 Coverage Results" MODIFIED="1560324001079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$02_static_web_server_file.coverage" NAME="02_static_web_server_file Coverage Results" MODIFIED="1561730291482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程/web服务器案例" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$echo_.coverage" NAME="echo服务器. Coverage Results" MODIFIED="1561126844006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$.coverage" NAME="封装成类 Coverage Results" MODIFIED="1562722980526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/数据库/mysql" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$UDP_socke.coverage" NAME="UDP socke接收端 Coverage Results" MODIFIED="1561122494056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$socket.coverage" NAME="socket套接字 Coverage Results" MODIFIED="1560862074895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$Pool.coverage" NAME="多进程服务器Pool Coverage Results" MODIFIED="1561555510179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/并发服务器" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$pool.coverage" NAME="进程池pool Coverage Results" MODIFIED="1561121552003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/系统编程/进程" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$type.coverage" NAME="type创建类 Coverage Results" MODIFIED="1560776949388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/生成器、闭包、装饰器/元类" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$web.coverage" NAME="简易web服务器代码编写 Coverage Results" MODIFIED="1561730540102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程/web服务器案例" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$wyb_ap_accept__1_.coverage" NAME="wyb_ap_accept (1) Coverage Results" MODIFIED="1562721312162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APtest" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$03_is_____.coverage" NAME="03_is 和 == 区别 Coverage Results" MODIFIED="1560394321194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门大佬教程/高级教程1" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$0_ProcessPool.coverage" NAME="0-Process和Pool不同点（自已） Coverage Results" MODIFIED="1561556257459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/系统编程/进程" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$wyb_ap_accept.coverage" NAME="wyb_ap_accept Coverage Results" MODIFIED="1562723622697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/UDP" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$socke.coverage" NAME="socke绑定端口 Coverage Results" MODIFIED="1560867770811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$py_helloworld.coverage" NAME="py_helloworld Coverage Results" MODIFIED="1560320056561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$__.coverage" NAME="装饰器(重要) Coverage Results" MODIFIED="1560520788250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门大佬教程/生成器、闭包、装饰器" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$redispython.coverage" NAME="redis与python交互 Coverage Results" MODIFIED="1562664634456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/数据库/redis" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$test.coverage" NAME="test Coverage Results" MODIFIED="1561125905720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$10_.coverage" NAME="10-生产者与消费者模式 Coverage Results" MODIFIED="1561556419596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/系统编程/线程" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$mysqlpython.coverage" NAME="mysql与python连接 Coverage Results" MODIFIED="1562202866546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/数据库/mysql" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$wyb_ap_accept0_1.coverage" NAME="wyb_ap_accept0-1 Coverage Results" MODIFIED="1562811601533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APtest" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$QQ.coverage" NAME="模拟QQ聊天 Coverage Results" MODIFIED="1561128499297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$Process.coverage" NAME="多进程服务器Process Coverage Results" MODIFIED="1561554809050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/并发服务器" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$04_copycopy_.coverage" NAME="04_深copy和浅copy 区别 Coverage Results" MODIFIED="1560406655772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门大佬教程/高级教程1" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$2_UDP_socke.coverage" NAME="2-UDP socke接收端 Coverage Results" MODIFIED="1561385863939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/UDP" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1561387309561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python3x_learnning$6_pool.coverage" NAME="6-进程池pool Coverage Results" MODIFIED="1561554375683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python大佬炮制/系统编程/进程" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/数据库/redis/redis与python交互.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/数据库/redis/封装成对象.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/网络编程/web服务器案例/02_static_web_server_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/网络编程/web服务器案例1/2-静态服务器基础.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/网络编程/web服务器案例1/1-HTTP协议详解.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/网络编程/web服务器案例1/3-简易web服务器代码编写.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/TCP/TCP通信过程.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/UDP/aptest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/UDP/wyb_ap_accept.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#16#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/TCP/TCP服务器端.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/网络编程/socket-编程/TCP/TCP客户端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/数据库/mysql/封装成类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/django/01－django简介.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/db/backends/base/operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/testmodel/testmodel/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/testmodel/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工作日志（6月第四周）.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工作日志（7月第1周）.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工作日志（7月第2周）.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/testmodel/testapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/testmodel/testapp/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/testapp_heroinfo" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/testapp_bookinfo" />
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/testmodel/testapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/collation/BINARY" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/collation/NOCASE" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/collation/RTRIM" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/auth_group" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/auth_permission" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/auth_user_groups" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/auth_user" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/auth_user_user_permissions" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/django_admin_log" />
+    <entry file="file://$PROJECT_DIR$/工作日志（7月第3周）.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/django_migrations" />
+    <entry file="file://$PROJECT_DIR$/sql有效命令">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/sqlite_sequence" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/sqlite_master" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/django_session" />
+    <entry file="das://f1df050e-593e-4d57-a108-a8fbd3d598f8/schema/main/table/django_content_type" />
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/testmodel/testapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python实战成神/1-信锐AP接收端并数据入库代码（继续优化）/wyb_ap_accept0-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#15#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/1－开发流程.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python实战成神/1-信锐AP接收端并数据入库代码（继续优化）/ap_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/testmodel/testapp/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/testmodel/testmodel/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/python3x-learnning.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python大佬炮制/django/2  模型进阶/testmodel/testapp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
