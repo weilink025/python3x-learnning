@@ -1,0 +1,5 @@
+ Model元选项
+ class Meta:
+        db_table='book_wyb'   #定义数据表名
+        ordering = ['id']  #正序  排序会增加数据库开销
+        ordering = ['-id']  #降序
