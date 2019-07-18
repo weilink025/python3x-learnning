@@ -1,0 +1,18 @@
+content:表示返回的内容，字符串类型
+charset:表示reponse采用编码字符集，字符串类型
+status_code:响应HTTP响应状态码
+content-type:指定输出MIME类型
+
+方法：
+    init:使用页内容实例化HttpResponse对象
+    write(content):以文件方式写
+    flush:以文件的方式输出缓存区
+    set_cookie(key,value='',max_age=None,expires=None)设置cookie
+        key value都是字符串类型
+        max_age是一个整数，表示在指定多少秒数后过期
+        expires是一个datetime或timedelta对象，会话将在这个指定的日期时间过期，注意
+        datetime和timedelta值只有在使用PickleSerializer时才序列化
+
+        max_age与expires二选一
+        如果不指定过期时间，则两个星期后过期
+
