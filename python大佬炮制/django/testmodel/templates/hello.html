@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{%for book in title%}
+<li>
+    <a href="{{book.id}}">{{book.btitle}}</a>----{{book.bpub_date}}
+</li>
+{%endfor%}
+</body>
+</html>
