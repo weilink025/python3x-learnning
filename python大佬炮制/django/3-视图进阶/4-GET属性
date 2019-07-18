@@ -1,0 +1,8 @@
+QueryDict类型对象
+包含get请求方式的所有参数
+与url请求地址中的参数对应，位于？后面
+参数的格式是键值对，如key1=value1
+多个参数之间使用&连接，如果key1=value1&key2=value2
+键是开发人员定下来，值是可变的
+示图如下
+创建视图getTest1用于定义链接，getTest2用于接收一键一值，getTest3用于接收一键多值

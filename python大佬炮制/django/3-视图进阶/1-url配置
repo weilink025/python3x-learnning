@@ -1,0 +1,24 @@
+##############################
+项目urls
+from django.contrib import admin
+from django.urls import path,include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('',include('viewurl.urls',namespace='viewurl'))   #namespace反向解析时使用
+]
+
+##############################
+APP urls
+from django.urls import path,re_path
+from  . import views
+
+app_name = 'viewtest'   #反向解析时使用
+urlpatterns = [
+    #path('',views.index),
+    #path('<int:id>',views.index),
+    #re_path(r'^([0-9]+)/$',views.index),   #可以用正则表达式re_path
+    re_path(r'^(?P<id>[0-9]+)/(?P<pid>[0-9]+)/$', views.index, name='index'),  # ?P<id> 对应views接收参数是id 和 pid  如果views对应参数不正确，则会匹配不上
+    #path('',views.index,name='index'),    #name='index'  给path添加名称 反向解析时使用
+]
+
