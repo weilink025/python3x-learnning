@@ -1,0 +1,10 @@
+################################
+#演示HttpResopnseRedirect
+
+def redTest1(request):
+    #return HttpResponseRedirect('redTest2/')
+    return
+
+def redTest2(request):
+    return HttpResponse('这是转向来的页面')
+

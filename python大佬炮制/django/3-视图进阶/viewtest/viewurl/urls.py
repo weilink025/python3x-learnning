@@ -12,6 +12,14 @@ urlpatterns = [
 ##############POST演示
     path('postTest1/',views.postTest1),
     path('postTest2/',views.postTest2),
+    path('cookiesTest/',views.cookiesTest),
+    path('redTest1/',views.redTest1),
+    path('redTest2/',views.redTest2),
+    path('json/',views.jsonTest),
+    path('sessionForm/',views.sessionForm, name= 'sessionForm'),
+    path('sessionTest1/',views.sessionTest1),
+    path('sessionTest2/',views.sessionTest2),
+    path('sessionDelete/',views.sessionDelete),
     #path('',views.index),
     #path('<int:id>',views.index),
     #re_path(r'^([0-9]+)/$',views.index),   #可以用正则表达式re_path

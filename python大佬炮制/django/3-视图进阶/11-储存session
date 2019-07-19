@@ -1,0 +1,14 @@
+存储session
+    使用存储会话的方式，可以使用settings.py的SESSION_ENGINE项指定
+    基于数据库的会话：这是django默认的会话存储方式，需要添加django.contrib.sessions到的INSTALLED_APPS设置中，运行manage.py migrate在数据库中安装会话表，可显示指定为
+
+    SESSION_ENGINE='django.contrib.sessions.backends.db'
+
+    基于缓存的会话：只存在本地内在中，如果丢失则不能找回，比数据库的方式读写更快
+
+    SESSION_ENGINE='django.contrib.sessions.backends.cache'
+
+    可以将缓存和数据库同时使用：优先从本地缓存中获取，如果没有则从数据库中获取
+
+    SESSION_ENGINE='django.contrib.sessions.backends.cached_db'
+

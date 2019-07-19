@@ -1,0 +1,22 @@
+使用Redis缓存session
+
+    会话还支持文件、纯cookie、Memcached、Redis等方式存储，下面演示使用redis存储
+    安装包
+    pip install django-redis-sessions
+    修改settings中的配置，增加如下项
+    SESSION_ENGINE = 'redis_sessions.session'
+    SESSION_REDIS_HOST = 'localhost'
+    SESSION_REDIS_PORT = 6379
+    SESSION_REDIS_DB = 0
+    SESSION_REDIS_PASSWORD = ''
+    SESSION_REDIS_PREFIX = 'session'
+
+管理redis的命令
+
+    启动：sudo redis-server /etc/redis/redis.conf
+    停止：sudo redis-server stop
+    重启：sudo redis-server restart
+    redis-cli：使用客户端连接服务器
+    keys *：查看所有的键
+    get name：获取指定键的值
+    del name：删除指定名称的键

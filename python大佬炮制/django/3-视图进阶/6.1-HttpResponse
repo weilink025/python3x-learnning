@@ -1,0 +1,10 @@
+content:表示返回的内容，字符串类型
+charset:表示reponse采用编码字符集，字符串类型
+status_code:响应HTTP响应状态码
+content-type:指定输出MIME类型
+
+方法：
+    init:使用页内容实例化HttpResponse对象
+    write(content):以文件方式写
+    flush:以文件的方式输出缓存区
+
