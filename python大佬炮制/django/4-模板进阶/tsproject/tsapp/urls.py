@@ -1,6 +1,7 @@
-from django.urls import path
+from django.urls import path,re_path
 from . import views
-appname = 'tsproject'
+app_name = 'tsproject'
 urlpatterns = [
-    path('a/', views.a ),
+    path('index/', views.index ),
+    path('<int:id>/',views.show,name='show')
 ]

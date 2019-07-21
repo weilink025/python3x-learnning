@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{list.showname}}</title>
+</head>
+<body>
+<ul>
+    <a href="{% url 'tsapp:show' '556' %}">显示</a>   {#'tsapp:show'返回解析的写法 556是传递的参数  可以接收多个参数#}
+       {% comment %}       {% endcomment %}
+    {%for hero in list%}
+    {% if hero.hgender == True%}
+
+    <li style="color:red">
+        {{ forloop.counter }}:{{hero.showname}}---{{hero.hcontent}}--男
+    </li>
+
+    {% else %}
+    <li style="color:green">
+     {{ forloop.counter }}:{{hero.showname}}---{{hero.hcontent}}--女
+         </li>
+    {% endif %}
+    {% empty %}
+    啥也没有
+    {%endfor%}
+</ul>
+</body>
+</html>

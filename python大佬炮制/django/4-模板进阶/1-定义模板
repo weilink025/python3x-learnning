@@ -16,4 +16,55 @@
         如果变量不存在，模版系统将插入空字符串
         在模板中调用方法时不能传递参数  不能有小括号（）
 
+在模板中调用对象的方法
+    在models.py中定义类HeroInfo
+    from django.db import models
 
+    class HeroInfo(models.Model):
+        ...
+        def showName(self):
+            return self.hname
+在views.py中传递HeroInfo对象
+    from django.shortcuts import render
+    from models import *
+
+    def index(request):
+        hero = HeroInfo(hname='abc')
+        context = {'hero': hero}
+        return render(request, 'temtest/detail.html', context)
+在模板detail.html中调用
+    {{hero.showName}}
+标签
+    语法：{ % tag % }
+    作用
+    在输出中创建文本
+    控制循环或逻辑
+    加载外部信息到模板中供以后的变量使用
+for标签
+    { %for ... in ...%}
+    循环逻辑
+    {{forloop.counter}}表示当前是第几次循环
+    { %empty%}
+    给出的列表为或列表不存在时，执行此处
+    { %endfor%}
+if标签
+    { %if ...%}
+    逻辑1
+    { %elif ...%}
+    逻辑2
+    { %else%}
+    逻辑3
+    { %endif%}
+comment标签
+    { % comment % }
+    多行注释
+    { % endcomment % }
+include：加载模板并以标签内的参数渲染
+    { %include "foo/bar.html" % }
+url：反向解析
+    { % url 'name' p1 p2 %}
+csrf_token：这个标签用于跨站请求伪造保护
+    { % csrf_token %}
+布尔标签：and、or，and比or的优先级高
+block、extends：详见“模板继承”
+autoescape：详见“HTML转义”
