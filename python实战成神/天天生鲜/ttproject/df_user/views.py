@@ -7,7 +7,8 @@ from django.http import HttpResponse,JsonResponse
 # Create your views here.
 
 def register(request):
-    return render(request,'df_user/register.html')
+
+    return render(request,'df_user/register.html',{'title':'用户注册'})
 def register_handle(request):
     #接收用户注册POST
     post = request.POST
@@ -38,7 +39,6 @@ def register_handle(request):
     user.upwd = upwd3
     user.uemail = uemail
     user.save()
-
     return redirect('/user/login/')
 
 def register_exist(request):
@@ -47,12 +47,44 @@ def register_exist(request):
     count =UserInfo.objects.filter(uname=uname).count()
     return JsonResponse({'count':count})
 
+#用户登录处理
 def login(request):
-        return render(request, 'df_user/login.html')
+    uname = request.COOKIES.get('uname', '')
+    context = {'title': '用户登录', 'error_name': 0, 'error_pwd': 0, 'uname': uname}
+    return render(request, 'df_user/login.html',context)
 
-def login_handle(reqeust):
+def login_handle(request):
+    post=request.POST
+    uname = post.get('username')
+    upwd = post.get('pwd')
+    keepsession = post.get('keepsession',0)   #记住账号密码
 
-    pass
+    users = UserInfo.objects.filter(uname=uname)  #通过登录用户名查询数据库
+
+    #判断数据库是否存在记录，并匹配密码
+    if len(users) == 1:
+        s1=sha1()
+        s1.update(upwd.encode('utf-8'))
+        if s1.hexdigest() == users[0].upwd:
+            url = request.COOKIES.get('url','/')
+            red = redirect(url)
+
+            if keepsession != 0:
+                red.set_cookie('uname',uname)
+            else:
+                red.set_cookie('uname','',max_age=-1)
+            request.session['user_id'] = users[0].id
+            request.session['user_name'] = uname
+            return red
+        else:
+            context = {'title':'用户登录-用户密码错误','error_name':0,'error_pwd':1,'uname':uname,'upwd':upwd}
+            return render(request,'df_user/login.html',context)
+    else:
+        context = {'title': '用户登录-用户名错误', 'error_name': 1, 'error_pwd': 0, 'uname': uname, 'upwd': upwd}
+        return render(request, 'df_user/login.html', context)
+
+
+
 
 def user_center_info(request):
     return render(request,'df_user/user_center_info.html')

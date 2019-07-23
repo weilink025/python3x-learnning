@@ -6,6 +6,7 @@ urlpatterns = [
     path('register_handle/',views.register_handle),
     path('register_exist/',views.register_exist),
     path('login/',views.login ),
+    path('login_handle/',views.login_handle ),
     path('user_center_info/',views.user_center_info ),
     path('user_center_site/',views.user_center_site ),
     path('register_handle/',views.register_handle ),
