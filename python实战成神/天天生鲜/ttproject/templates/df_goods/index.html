@@ -1,0 +1,226 @@
+{% extends 'base.html'%}
+{% block head%}
+
+
+<script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/static/js/slide.js"></script>
+<script type="text/javascript" src="/static/js/slideshow.js"></script>
+<script type="text/javascript">
+    BCSlideshow('focuspic');
+    var oFruit = document.getElementById('fruit_more');
+    var oShownum = document.getElementById('show_count');
+
+    var hasorder = localStorage.getItem('order_finish');
+
+    if (hasorder) {
+        oShownum.innerHTML = '2';
+    }
+
+    oFruit.onclick = function () {
+        window.location.href = 'list.html';
+    }
+</script>
+{% endblock head%}
+
+{% block body_content%}
+
+<div class="navbar_con">
+    <div class="navbar">
+        <h1 class="fl">全部商品分类</h1>
+        <ul class="navlist fl">
+            <li><a href="">首页</a></li>
+            <li class="interval">|</li>
+            <li><a href="">手机生鲜</a></li>
+            <li class="interval">|</li>
+            <li><a href="">抽奖</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="center_con clearfix">
+    <ul class="subnav fl">
+<li><a href="/goods/list/{{ fruit_type.id }}/?sort=default" class="fruit">{{ fruit_type.ttitle }}</a></li>
+                <li><a href="/goods/list/{{ seafood_type.id }}/?sort=default" class="seafood">{{ seafood_type.ttitle }}</a></li>
+                <li><a href="/goods/list/{{ meat_type.id }}/?sort=default" class="meet">{{ meat_type.ttitle }}</a></li>
+                <li><a href="/goods/list/{{ egg_type.id }}/?sort=default" class="egg">{{ egg_type.ttitle }}</a></li>
+                <li><a href="/goods/list/{{ vegetables_type.id }}/?sort=default" class="vegetables">{{ vegetables_type.ttitle }}</a>
+                </li>
+                <li><a href="/goods/list/{{ freeze_type.id }}/?sort=default" class="ice">{{ freeze_type.ttitle }}</a></li>
+    </ul>
+    <div class="slide fl">
+        <ul class="slide_types">
+            <li><img src="/static/images/slide.jpg" alt="幻灯片"></li>
+            <li><img src="/static/images/slide02.jpg" alt="幻灯片"></li>
+            <li><img src="/static/images/slide03.jpg" alt="幻灯片"></li>
+            <li><img src="/static/images/slide04.jpg" alt="幻灯片"></li>
+        </ul>
+        <div class="prev"></div>
+        <div class="next"></div>
+        <ul class="points"></ul>
+    </div>
+    <div class="adv fl">
+        <a href="#"><img src="/static/images/adv01.jpg"></a>
+        <a href="#"><img src="/static/images/adv02.jpg"></a>
+    </div>
+</div>
+
+<div class="list_model">
+    <div class="list_title clearfix">
+        <h3 class="fl" id="model01">新鲜水果</h3>
+        <div class="subtitle fl">
+            <span>|</span>
+            {% for hot in fruit_hot %}
+            <a href="/goods/detail/{{ hot.id }}/">{{ hot.pname }}</a>
+            {% endfor %}
+        </div>
+        <a href="/goods/list/{{ fruit_type.id }}/" class="goods_more fr" id="fruit_more">查看更多 ></a>
+    </div>
+
+    <div class="goods_con clearfix">
+        <div class="goods_banner fl"><img src="/media/{{ fruit_type.tpic }}"></div>
+        <ul class="goods_list fl">
+            {% for recommend in fruit_recommend %}
+            <li>
+                <h4><a href="/goods/detail/{{ recommend.id }}/">{{ recommend.pname }}</a></h4>
+                <a href="/goods/detail/{{ recommend.id }}"><img src="/media/{{ recommend.ppic }}"></a>
+                <div class="prize">¥ {{ recommend.pprice }}</div>
+            </li>
+            {% endfor %}
+
+        </ul>
+    </div>
+</div>
+
+<div class="list_model">
+    <div class="list_title clearfix">
+        <h3 class="fl" id="model02">海鲜水产</h3>
+        <div class="subtitle fl">
+            <span>|</span>
+            {% for hot in seafood_hot %}
+            <a href="/goods/detail/{{ hot.id }}/">{{ hot.pname }}</a>
+            {% endfor %}
+        </div>
+        <a href="/goods/list/{{ seafood_type.id }}/" class="goods_more fr">查看更多 ></a>
+    </div>
+
+    <div class="goods_con clearfix">
+        <div class="goods_banner fl"><img src="/media/{{ seafood_type.tpic }}"></div>
+        <ul class="goods_list fl">
+            {% for recommend in seafood_recommend %}
+            <li>
+                <h4><a href="/goods/detail/{{ recommend.id }}">{{ recommend.pname }}</a></h4>
+                <a href="/goods/detail/{{ recommend.id }}"><img src="/media/{{ recommend.ppic }}"></a>
+                <div class="prize">¥ {{ recommend.pprice }}</div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="list_model">
+    <div class="list_title clearfix">
+        <h3 class="fl" id="model03">猪牛羊肉</h3>
+        <div class="subtitle fl">
+            <span>|</span>
+            {% for hot in meat_hot %}
+            <a href="/goods/detail/{{ hot.id }}/">{{ hot.pname }}</a>
+            {% endfor %}
+        </div>
+        <a href="/goods/list/{{ meat_type.id }}/" class="goods_more fr">查看更多 ></a>
+    </div>
+
+    <div class="goods_con clearfix">
+        <div class="goods_banner fl"><img src="/media/{{ meat_type.tpic }}"></div>
+        <ul class="goods_list fl">
+            {% for recommend in meat_recommend %}
+            <li>
+                <h4><a href="/goods/detail/{{ recommend.id }}">{{ recommend.pname }}</a></h4>
+                <a href="/goods/detail/{{ recommend.id }}"><img src="/media/{{ recommend.ppic }}"></a>
+                <div class="prize">¥ {{ recommend.pprice }}</div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="list_model">
+    <div class="list_title clearfix">
+        <h3 class="fl" id="model04">禽类蛋品</h3>
+        <div class="subtitle fl">
+            <span>|</span>
+            {% for hot in egg_hot %}
+            <a href="/goods/detail/{{ hot.id }}/">{{ hot.pname }}</a>
+            {% endfor %}
+        </div>
+        <a href="/goods/list/{{ egg_type.id }}/" class="goods_more fr">查看更多 ></a>
+    </div>
+
+    <div class="goods_con clearfix">
+        <div class="goods_banner fl"><img src="/media/{{ egg_type.tpic }}"></div>
+        <ul class="goods_list fl">
+            {% for recommend in egg_recommend %}
+            <li>
+                <h4><a href="/goods/detail/{{ recommend.id }}">{{ recommend.pname }}</a></h4>
+                <a href="/goods/detail/{{ recommend.id }}"><img src="/media/{{ recommend.ppic }}"></a>
+                <div class="prize">¥ {{ recommend.pprice }}</div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="list_model">
+    <div class="list_title clearfix">
+        <h3 class="fl" id="model05">新鲜蔬菜</h3>
+        <div class="subtitle fl">
+            <span>|</span>
+            {% for hot in vegetables_hot %}
+            <a href="/goods/detail/{{ hot.id }}/">{{ hot.pname }}</a>
+            {% endfor %}
+        </div>
+        <a href="/goods/list/{{ vegetables_type.id }}/" class="goods_more fr">查看更多 ></a>
+    </div>
+
+    <div class="goods_con clearfix">
+        <div class="goods_banner fl"><img src="/media/{{ vegetables_type.tpic }}"></div>
+        <ul class="goods_list fl">
+            {% for recommend in vegetables_recommend %}
+            <li>
+                <h4><a href="/goods/detail/{{ recommend.id }}">{{ recommend.pname }}</a></h4>
+                <a href="/goods/detail/{{ recommend.id }}"><img src="/media/{{ recommend.ppic }}"></a>
+                <div class="prize">¥ {{ recommend.pprice }}</div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="list_model">
+    <div class="list_title clearfix">
+        <h3 class="fl" id="model06">速冻食品</h3>
+        <div class="subtitle fl">
+            <span>|</span>
+            {% for hot in freeze_hot %}
+            <a href="/goods/detail/{{ hot.id }}/">{{ hot.pname }}</a>
+            {% endfor %}
+        </div>
+        <a href="/goods/list/{{ freeze_type.id }}/" class="goods_more fr">查看更多 ></a>
+    </div>
+
+    <div class="goods_con clearfix">
+        <div class="goods_banner fl"><img src="/media/{{ freeze_type.tpic }}"></div>
+        <ul class="goods_list fl">
+            {% for recommend in freeze_recommend %}
+            <li>
+                <h4><a href="/goods/detail/{{ recommend.id }}">{{ recommend.pname }}</a></h4>
+                <a href="/goods/detail/{{ recommend.id }}"><img src="/media/{{ recommend.ppic }}"></a>
+                <div class="prize">¥ {{ recommend.pprice }}</div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock body_content%}
+
+

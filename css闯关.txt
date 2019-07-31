@@ -1,0 +1,5 @@
+<input type="text" placeholder="cat photo URL">   #placeholder非输入文本框提示内容
+<input type="text" required>  必填 required属性在Safari浏览器中不起作用
+<label></label>  常用于form表单
+
+color: pink !important;

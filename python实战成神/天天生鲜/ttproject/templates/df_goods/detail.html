@@ -1,0 +1,162 @@
+{% extends 'base.html'%}
+{% block head %}
+
+<script type="text/javascript">
+    $(function () {
+        $('#add').click(
+            function () {
+                num = parseFloat($('#buy_sum').val());
+                $('#buy_sum').val(num+1);
+                $('#buy_sum').blur();
+
+            });
+
+        $('#reduce').click(
+            function () {
+                num = parseFloat($('#buy_sum').val());
+                $('#buy_sum').val(num-1);
+                $('#buy_sum').blur();
+
+            });
+
+        $('#buy_sum').blur(
+            function () {
+                num=$('#buy_sum').val();
+                price = $('#pprice').text();
+                total = num * price;
+                $('#gtotal').text(total);
+
+
+            });
+
+    })
+
+
+</script>
+
+
+<script type="text/javascript">
+    var $add_x = $('#add_cart').offset().top;
+    var $add_y = $('#add_cart').offset().left;
+
+    var $to_x = $('#show_count').offset().top;
+    var $to_y = $('#show_count').offset().left;
+
+    $(".add_jump").css({'left': $add_y + 80, 'top': $add_x + 10, 'display': 'block'})
+    $('#add_cart').click(function () {
+        $(".add_jump").stop().animate({
+                'left': $to_y + 7,
+                'top': $to_x + 7
+            },
+            "fast", function () {
+                $(".add_jump").fadeOut('fast', function () {
+                    $('#show_count').html(2);
+                });
+
+            });
+    })
+</script>
+{% endblock head %}
+
+{% block body_content %}
+<div class="navbar_con">
+    <div class="navbar clearfix">
+        <div class="subnav_con fl">
+            <h1>全部商品分类</h1>
+            <span></span>
+            <ul class="subnav">
+                <li><a href="/goods/list/{{ fruit_type.id }}/?sort=default" class="fruit">{{ fruit_type.ttitle }}</a></li>
+                <li><a href="/goods/list/{{ seafood_type.id }}/?sort=default" class="seafood">{{ seafood_type.ttitle }}</a></li>
+                <li><a href="/goods/list/{{ meat_type.id }}/?sort=default" class="meet">{{ meat_type.ttitle }}</a></li>
+                <li><a href="/goods/list/{{ egg_type.id }}/?sort=default" class="egg">{{ egg_type.ttitle }}</a></li>
+                <li><a href="/goods/list/{{ vegetables_type.id }}/?sort=default" class="vegetables">{{ vegetables_type.ttitle }}</a>
+                </li>
+                <li><a href="/goods/list/{{ freeze_type.id }}/?sort=default" class="ice">{{ freeze_type.ttitle }}</a></li>
+            </ul>
+        </div>
+        <ul class="navlist fl">
+            <li><a href="">首页</a></li>
+            <li class="interval">|</li>
+            <li><a href="">手机生鲜</a></li>
+            <li class="interval">|</li>
+            <li><a href="">抽奖</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="breadcrumb">
+    <a href="#">全部分类</a>
+    <span>></span>
+    <a href="/goods/list/{{ pro_type.id }}/">{{ pro_type.ttitle }}</a>
+    <span>></span>
+    <a href="#">{{ pro_detail.pname }}</a>
+</div>
+
+<div class="goods_detail_con clearfix">
+    <div class="goods_detail_pic fl"><img src="/media/{{ pro_detail.ppic }}" width="350" height="350"></div>
+
+    <div class="goods_detail_list fr">
+        <h3>{{ pro_detail.pname }}</h3>
+        <p>{{ pro_detail.pbrief }}</p>
+        <div class="prize_bar">
+            <span class="show_pirze" >¥<em id="pprice">{{ pro_detail.pprice }}</em></span>
+            <span class="show_unit">单  位：{{ pro_detail.punit }}</span>
+        </div>
+        <div class="goods_num clearfix">
+            <div class="num_name fl">数 量：{{ pro_detail.pstock }}</div>
+            <div class="num_add fl">
+                <input type="text" class="num_show fl" value="1" id="buy_sum">
+                <a href="javascript:;" class="add fr" id="add">+</a>
+                <a href="javascript:;" class="minus fr" id="reduce">-</a>
+            </div>
+        </div>
+        <div class="total">总价：<em id="gtotal">{{ pro_detail.pprice }}</em>元</div>
+        <div class="operate_btn">
+            <a href="javascript:;" class="buy_btn">立即购买</a>
+            <a href="javascript:;" class="add_cart" id="add_cart">加入购物车</a>
+        </div>
+    </div>
+</div>
+
+<div class="main_wrap clearfix">
+    <div class="l_wrap fl clearfix">
+        <div class="new_goods">
+            <h3>新品推荐</h3>
+            <ul>
+                {% for new in product_new_get %}
+                <li>
+                    <a href="/goods/detail/{{ new.id }}/"><img src="/media/{{ new.ppic }}"></a>
+                    <h4><a href="/goods/detail/{{ new.id }}/">{{ new.pname }}</a></h4>
+                    <div class="prize">￥{{ new.pprice }}</div>
+                </li>
+               {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="r_wrap fr clearfix">
+        <ul class="detail_tab clearfix">
+            <li class="active">商品介绍</li>
+            <li>评论</li>
+        </ul>
+
+        <div class="tab_content">
+            <dl>
+                <dt></dt>
+                <dd>
+                    {{ pro_detail.pcontent | safe }}
+
+                </dd>
+            </dl>
+        </div>
+
+    </div>
+</div>
+{% endblock body_content %}
+{% block foot %}
+
+<div class="add_jump"></div>
+
+
+{% endblock foot %}
+

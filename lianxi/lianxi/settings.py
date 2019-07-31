@@ -25,7 +25,7 @@ SECRET_KEY = 'r&8#fnhybn=o8my_-c6z4(vfzlb80n^_=1*me&ip_y+u2e%k=i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.212.63.20','127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -82,11 +82,7 @@ WSGI_APPLICATION = 'lianxi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'HOST':'localhost',
-        'POST':'3306',
-        'USER':'root',
-        'PASSWORD':' ',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'tiantian',
     }
 }

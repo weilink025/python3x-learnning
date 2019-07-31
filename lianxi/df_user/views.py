@@ -5,7 +5,7 @@ from django.shortcuts import render, redirect
 from df_goods.models import GoodsInfo
 from .models import UserInfo
 from hashlib import sha1    #用于密码加密
-from . import user_decorator
+
 import re                 #用于验证邮箱
 
 # Create your views here.

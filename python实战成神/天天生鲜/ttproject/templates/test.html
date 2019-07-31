@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>.</title>
+    <script src="/static/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+        $.ajax(
+            {
+                url:'/user/login/',
+                type:'get',
+                dataType:'json',
+            })
+            .done(function () {
+                alert("yes");
+            })
+            .fail(function () {
+                console.log("errro")
+            })
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
