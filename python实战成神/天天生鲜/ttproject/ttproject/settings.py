@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'bootstrap_admin',
+    '',
     'df_cart',
     'df_goods',
     'df_user',
@@ -81,12 +81,12 @@ WSGI_APPLICATION = 'ttproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME':'dailyfresh',
-        'USER':'root',
-        'PASSWORD':'root',
-        'PROT':'3306',
-        'HOST':'localhost',
+        'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME':'dailyfresh',
+        # 'USER':'root',
+        # 'PASSWORD':'root',
+        # 'PROT':'3306',
+        # 'HOST':'localhost',
     }
 }
 
